@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="site-nav">
+          <a href="./index.html" lang="en" class="logo"
+            ><span class="webcolor">Web</span> Studio</a
+          >
+          <ul class="site-nav__list">
+            <li class="site-nav__item">
+              <a class="site-nav__item-link" href="./index.html">Cтудия </a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__item-link" href="./portfolio.html"
+                >Портфолио
+                <div class="site-nav__item-subhover-portfolio"></div>
+              </a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__item-link" href="">Контакты </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="contacts">
+          <a class="contacts__list" href="mailto:info@devstudio.com"
+            ><button class="contacts__button">
+              <svg class="contacts__svg">
+                <use href="./images/sprite.svg#icon-envelope-header"></use>
+              </svg></button
+            >info@devstudio.com
+          </a>
+          <a class="contacts__list" href="tel:+380991111111"
+            ><button class="contacts__button">
+              <svg class="contacts__svg">
+                <use href="./images/sprite.svg#icon-smartphone-header"></use>
+              </svg></button
+            >+38 099 111 11 11
+          </a>
+        </div>
+      </div>
+    </header>
+    <!--Portfolio-Main-->
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="is-hidden">Выбор Категории Портфолио</h1>
+          <ul class="portfolio-chapters">
+            <li class="portfolio-chapters__items">
+              <button class="portfolio-chapters__buttons">Все</button>
+            </li>
+            <li class="portfolio-chapters__items">
+              <button class="portfolio-chapters__buttons">Веб-Сайты</button>
+            </li>
+            <li class="portfolio-chapters__items">
+              <button class="portfolio-chapters__buttons">Приложения</button>
+            </li>
+            <li class="portfolio-chapters__items">
+              <button class="portfolio-chapters__buttons">Дизайн</button>
+            </li>
+            <li class="portfolio-chapters__items">
+              <button class="portfolio-chapters__buttons">Маркетинг</button>
+            </li>
+          </ul>
+          <h2 class="is-hidden">Содержимое Портфолио</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-list__items">
+              <a class="portfolio-list__card-link" href="">
+                <div class="portfolio-list__card-image">
+                  <img
+                    src="./images/portfolio1.jpg"
+                    alt="Наши люди - наше преимущество"
+                  />
+                  <p class="portfolio-list__image-text">
+                    Технокряк - это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <div class="portfolio-list__card-content">
+                  <h3 class="portfolio-list__item-heading">Технокряк</h3>
+                  <p class="portfolio-list__item-category">Веб-Сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list__items">
+              <a class="portfolio-list__card-link" href="">
+                <div class="portfolio-list__card-image">
+                  <img src="./images/portfolio2.jpg" alt="Баскетболяне" />
+                  <p class="portfolio-list__image-text">
+                    Постер New Orlean vs Golden Stars - это современная площадка
+                    распространения коронавируса. Компании используют эту
+                    платформу для цифрового шпионажа и атак на защищённые
+                    сервера конкурентов.
+                  </p>
+                </div>
+                <div class="portfolio-list__card-content">
+                  <h3 class="portfolio-list__item-heading">
+                    Постер New Orlean vs Golden Stars
+                  </h3>
+                  <p class="portfolio-list__item-category">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list__items">
+              <a class="portfolio-list__card-link" href="">
+                <div class="portfolio-list__card-image">
+                  <img
+                    src="./images/portfolio3.jpg"
+                    alt="Ресторан морепродуктов"
+                  />
+                  <p class="portfolio-list__image-text">
+                    Ресторан Seafood - это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <div class="portfolio-list__card-content">
+                  <h3 class="portfolio-list__item-heading">Ресторан Seafood</h3>
+                  <p class="portfolio-list__item-category">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list__items">
+              <a class="portfolio-list__card-link" href="">
+                <div class="portfolio-list__card-image">
+                  <img src="./images/portfolio4.jpg" alt="Наушники" />
+                  <p class="portfolio-list__image-text is-hidden">
+                    Проект Prime - это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <div class="portfolio-list__card-content">
+                  <h3 class="portfolio-list__item-heading">Проект Prime</h3>
+                  <p class="portfolio-list__item-category">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list__items">
+              <a class="portfolio-list__card-link" href="">
+                <div class="portfolio-list__card-image">
+                  <img src="./images/portfolio5.jpg" alt="Боксы" />
+                  <p class="portfolio-list__image-text is-hidden">
+                    Проект Boxes - это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <div class="portfolio-list__card-content">
+                  <h3 class="portfolio-list__item-heading">Проект Boxes</h3>
+                  <p class="portfolio-list__item-category">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list__items">
+              <a class="portfolio-list__card-link" href="">
+                <div class="portfolio-list__card-image">
+                  <img src="./images/portfolio6.jpg" alt="Экран монитора" />
+                  <p class="portfolio-list__image-text is-hidden">
+                    Inspiration has no Borders - это современная площадка
+                    распространения коронавируса. Компании используют эту
+                    платформу для цифрового шпионажа и атак на защищённые
+                    сервера конкурентов.
+                  </p>
+                </div>
+                <div class="portfolio-list__card-content">
+                  <h3 class="portfolio-list__item-heading">
+                    Inspiration has no Borders
+                  </h3>
+                  <p class="portfolio-list__item-category">Веб-Сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list__items">
+              <a class="portfolio-list__card-link" href="">
+                <div class="portfolio-list__card-image">
+                  <img src="./images/portfolio7.jpg" alt="Номер журнала" />
+                  <p class="portfolio-list__image-text is-hidden">
+                    Издание Limited Edition - это современная площадка
+                    распространения коронавируса. Компании используют эту
+                    платформу для цифрового шпионажа и атак на защищённые
+                    сервера конкурентов.
+                  </p>
+                </div>
+                <div class="portfolio-list__card-content">
+                  <h3 class="portfolio-list__item-heading">
+                    Издание Limited Edition
+                  </h3>
+                  <p class="portfolio-list__item-category">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list__items">
+              <a class="portfolio-list__card-link" href="">
+                <div class="portfolio-list__card-image">
+                  <img src="./images/portfolio8.jpg" alt="Ярлык" />
+                  <p class="portfolio-list__image-text is-hidden">
+                    Проект Boxes - это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <div class="portfolio-list__card-content">
+                  <h3 class="portfolio-list__item-heading">Проект LAB</h3>
+                  <p class="portfolio-list__item-category">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-list__items">
+              <a class="portfolio-list__card-link" href="">
+                <div class="portfolio-list__card-image">
+                  <img src="./images/portfolio9.jpg" alt="Ноутбук" />
+                  <p class="portfolio-list__image-text is-hidden">
+                    Growing Business - это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+                <div class="portfolio-list__card-content">
+                  <h3 class="portfolio-list__item-heading">Growing Business</h3>
+                  <p class="portfolio-list__item-category">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer class="footer-background">
+      <div class="footer-subdivision container footer-background">
+        <div class="footer-subdivision__address">
+          <a
+            href="./index.html"
+            lang="en"
+            class="footer-subdivision__logo-footer"
+            ><span class="footer-subdivision__web-colour">Web</span> Studio
+          </a>
+          <address>
+            <a class="footer-subdivision__footer-address-first-part" href=""
+              >г. Киев, пр-т Леси Украинки, 26</a
+            ><br />
+            <a
+              class="footer-subdivision__footer-address-second-part"
+              href="mailto:info@devstudio.com"
+              >info@example.com</a
+            ><br />
+            <a
+              class="footer-subdivision__footer-address-second-part"
+              href="tel:+380991111111"
+              >+38 099 111 11 11
+            </a>
+          </address>
+        </div>
+        <div class="footer-subdivision__social-media">
+          <b class="footer-subdivision__header">Присоединяйтесь</b>
+          <ul class="footer-subdivision__social-media-list">
+            <li class="footer-subdivision__social-media-item">
+              <a
+                class="footer-subdivision__social-media-links footer-subdivision__social-media-insta"
+                href=""
+                aria-label="Ссылка на инстаграм"
+              ></a>
+            </li>
+            <li class="footer-subdivision__social-media-item">
+              <a
+                class="footer-subdivision__social-media-links footer-subdivision__social-media-tweeter"
+                href=""
+                aria-label="Ссылка на твиттер"
+              ></a>
+            </li>
+            <li class="footer-subdivision__social-media-item">
+              <a
+                class="footer-subdivision__social-media-links footer-subdivision__social-media-facebook"
+                href=""
+                aria-label="Ссылка на фейсбук"
+              ></a>
+            </li>
+            <li class="footer-subdivision__social-media-item">
+              <a
+                class="footer-subdivision__social-media-links footer-subdivision__social-media-linkedin"
+                href=""
+                aria-label="Ссылка на линкедин"
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <form class="footer-subdivision__subscription js-speaker-form">
+          <b class="footer-subdivision__header">Подпишитесь на рассылку</b>
+          <input type="email" name="mail" placeholder="E-mail" />
+          <button type="submit" class="footer-subdivision__button">
+            Подписаться
+          </button>
+        </form>
+        <div class="footer-subdivision__developers">
+          <p class="footer-subdivision__developers-text">
+            2020 | Developed by GoIT Students
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      (() => {
+        document
+          .querySelector(".js-speaker-form")
+          .addEventListener("submit", (e) => {
+            e.preventDefault();
+
+            new FormData(e.currentTarget).forEach((value, name) =>
+              console.log(`${name}: ${value}`)
+            );
+
+            e.currentTarget.reset();
+          });
+      })();
+    </script>
+  </body>
+</html>
