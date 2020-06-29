@@ -53,8 +53,9 @@ body {
   background-color: var(--white-color);
   color: var(--main-font-color);
 }
+
 .page-header {
-  background-color: tomato;
+  border-bottom: 1px solid #ececec;
 }
 .header-container {
   display: flex;
@@ -187,6 +188,10 @@ a:focus {
   padding-left: 15px;
   padding-right: 15px;
   background-color: var(--white-color);
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .footer-background {
   background-color: var(--footer-color);

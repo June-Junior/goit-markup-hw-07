@@ -48,11 +48,6 @@ font-family: 'Raleway', sans-serif;*/
   text-align: center;
   color: var(--white-color);
 }
-.section {
-  background-color: teal;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .addbackground {
   background-color: var(--big-icons-fill-our-team-fill);
 }
@@ -132,6 +127,9 @@ font-family: 'Raleway', sans-serif;*/
   line-height: 1.2;
   color: var(--secondary-font-color);
   margin-bottom: 50px;
+}
+.paddingcancel {
+  padding-top: 0;
 }
 .our-activities {
   display: flex;

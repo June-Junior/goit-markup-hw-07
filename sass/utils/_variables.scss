@@ -1,0 +1,68 @@
+/*main-font-color #757575 */
+/*secondary-font-color #212121 */
+/*text-hover-color #2196F3 */
+/*white-color #FFFFFF */
+/*grey-icons #AFB1B8 */
+/*big-icons-fill-our-team-fill #F5F4FA */
+/*footer-color #2F303A */
+/*footer-text-gray rgba(255, 255, 255, 0.6) */
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+:root {
+  --main-font-color: #757575;
+  --secondary-font-color: #212121;
+  --text-hover-color: #2196f3;
+  --white-color: #ffffff;
+  --footer-color: #2f303a;
+  --footer-text-gray: rgba(255, 255, 255, 0.6);
+  --big-icons-fill-our-team-fill: #f5f4fa;
+  --grey-icons: #afb1b8;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body {
+  display: grid;
+  background-color: var(--white-color);
+  color: var(--main-font-color);
+}
+/*скрыть элемент*/
+.is-hidden {
+  display: none;
+}
+/*убрать подчеркивания ссылок*/
+a {
+  text-decoration: none;
+  color: var(--secondary-font-color);
+}
+a:hover,
+a:focus {
+  color: var(--text-hover-color);
+}
