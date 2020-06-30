@@ -1,0 +1,40 @@
+.addbackground {
+  background-color: var(--big-icons-fill-our-team-fill);
+}
+.our-team {
+  display: flex;
+}
+.our-team__item {
+  margin-right: 30px;
+  border-radius: 4px;
+  height: 422px;
+  width: 270px;
+  background-color: var(--white-color);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+.our-team__item:last-child {
+  margin-right: 0;
+}
+.our-team__employee {
+  margin-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--secondary-font-color);
+  text-align: center;
+}
+.our-team__employee-position-name {
+  margin-bottom: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+.our-team__picture {
+  margin-bottom: 30px;
+}

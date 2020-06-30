@@ -1,0 +1,33 @@
+.portfolio-chapters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.portfolio-chapters__items {
+  margin-right: 8px;
+}
+.portfolio-chapters__items:last-child {
+  margin-right: 0;
+}
+.portfolio-chapters__buttons {
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: var(--big-icons-fill-our-team-fill);
+  border: none;
+  cursor: pointer;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-chapters__buttons:hover,
+.portfolio-chapters__buttons:focus {
+  background-color: var(--text-hover-color);
+  color: var(--white-color);
+}

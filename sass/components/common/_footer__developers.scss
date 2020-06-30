@@ -1,0 +1,16 @@
+.footer-subdivision__developers {
+  width: 1170px;
+  height: 60px;
+  border-top: 1px solid var(--footer-text-gray);
+  padding-top: 18px;
+}
+.footer-subdivision__developers-text {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 2;
+  color: var(--footer-text-gray);
+}

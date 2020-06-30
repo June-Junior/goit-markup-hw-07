@@ -1,0 +1,39 @@
+.site-nav__list {
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  margin-left: 85px;
+}
+.site-nav__item {
+  margin-right: 50px;
+}
+.site-nav__item:last-child {
+  margin-right: 0;
+}
+/*transition: cubic-bezier(0.4, 0, 0.2, 1);*/
+.site-nav__item-link {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.site-nav__item-subhover-main {
+  position: absolute;
+  width: 47px;
+  height: 4px;
+  background-color: var(--text-hover-color);
+  border-radius: 2px;
+  bottom: 0;
+  pointer-events: none;
+}
+.site-nav__item-subhover-portfolio {
+  position: absolute;
+  width: 47px;
+  height: 4px;
+  background-color: var(--text-hover-color);
+  border-radius: 2px;
+  bottom: 0;
+  transform: translate(33%);
+  pointer-events: none;
+}

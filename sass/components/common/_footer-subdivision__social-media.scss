@@ -1,0 +1,52 @@
+.footer-subdivision__social-media {
+  margin-bottom: 56px;
+  margin-right: 94px;
+  width: 206px;
+}
+.footer-subdivision__header {
+  display: inline-block;
+  margin-bottom: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.footer-subdivision__social-media-list {
+  display: inline-flex;
+}
+.footer-subdivision__social-media-item {
+  margin-right: 10px;
+}
+.footer-subdivision__social-media-item:last-child {
+  margin-right: 0;
+}
+.footer-subdivision__social-media-links {
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-position: center;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-subdivision__social-media-insta {
+  background-image: url(../images/instagram2.svg);
+}
+.footer-subdivision__social-media-tweeter {
+  background-image: url(../images/twitter1.svg);
+}
+.footer-subdivision__social-media-facebook {
+  background-image: url(../images/facebook1.svg);
+}
+.footer-subdivision__social-media-linkedin {
+  background-image: url(../images/linkedin1.svg);
+}
+.footer-subdivision__social-media-links:hover {
+  background-color: var(--text-hover-color);
+}

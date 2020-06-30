@@ -1,0 +1,23 @@
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+.header-container {
+  display: flex;
+}
+.site-nav {
+  position: relative;
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+.contacts {
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--main-font-color);
+  align-items: center;
+  margin-left: auto;
+}

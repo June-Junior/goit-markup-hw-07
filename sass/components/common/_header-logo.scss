@@ -1,0 +1,15 @@
+.logo {
+  color: var(--secondary-font-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.webcolor {
+  color: var(--text-hover-color);
+}
